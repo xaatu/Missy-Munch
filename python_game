@@ -1,7 +1,7 @@
 import pygame
 import random
 
-# INITIALISE PYGAME
+# INITIALISE
 pygame.init()
 
 # INITIALISE SOUND MIXER
@@ -174,7 +174,7 @@ while not game_over:
                 title_page = False
                 restart_game()
     else:
-        screen.blit(background_image, (0, 0))  # Draw background image
+        screen.blit(background_image, (0, 0))  
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -297,4 +297,3 @@ while waiting:
             restart_game()
 
 pygame.quit()
- 
