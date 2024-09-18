@@ -9,7 +9,7 @@ pygame.mixer.init()
 
 # SOUND FILES
 pygame.mixer.music.load("missymunchnew.wav")
-pygame.mixer.music.play(-1)  # Play on loop
+pygame.mixer.music.play(-1)  
 coin_sound = pygame.mixer.Sound("coin.wav")
 jump_sound = pygame.mixer.Sound("jump1.wav")
 
